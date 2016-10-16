@@ -28,6 +28,10 @@
 <h1>The weather today in Paignton</h1>
 <p>The weather in Paignton can be called up by using the Open Weather Map (OWM) API.</p>
 <p>An API call looks like this: http://api.openweathermap.org/data/2.5/weather?zip=TQ33TU,gb&APPID="mysecretid"</p>
+  The current date is
+  <% import datetime
+  print datetime.date.today().strftime("%d:%m:%y")
+  %>
   <div id="table_div"></div>
 </body>
 <footer>
