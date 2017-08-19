@@ -1,6 +1,6 @@
 from pyowm import OWM
 
-API_key = "7d1e1ea82891c8bd3e9067781121f41a"
+API_key = "<YOUR_API_KEY_HERE>"
 owm = OWM(API_key)
 
     
