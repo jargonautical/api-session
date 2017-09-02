@@ -5,6 +5,10 @@
 # we're using the Open Notify API (information about the International Space Station)
 # API documentation at http://www.open-notify.org/Open-Notify-API/
 
+#------------------------------------------------------------------------------------
+
+# Use these snippets on the command line after running Python in the terminal
+
 import requests
 
 response = requests.get("http://api.open-notify.org/iss-now.json)
